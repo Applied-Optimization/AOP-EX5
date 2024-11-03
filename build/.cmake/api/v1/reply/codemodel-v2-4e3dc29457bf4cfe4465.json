@@ -1,0 +1,414 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "_deps/googletest-build",
+					"childIndexes" : 
+					[
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.googletest-build-Debug-325181791364522dc3de.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "build/_deps/googletest-src"
+				},
+				{
+					"build" : "_deps/googletest-build/googlemock",
+					"childIndexes" : 
+					[
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.googletest-build.googlemock-Debug-113fed7184bc42b07287.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "build/_deps/googletest-src/googlemock",
+					"targetIndexes" : 
+					[
+						12,
+						13
+					]
+				},
+				{
+					"build" : "_deps/googletest-build/googletest",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.googletest-build.googletest-Debug-40132133eadbab449fbd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 3,
+					"source" : "build/_deps/googletest-src/googletest",
+					"targetIndexes" : 
+					[
+						14,
+						15
+					]
+				},
+				{
+					"build" : "EigenTutorial",
+					"jsonFile" : "directory-EigenTutorial-Debug-1d8326ac7aa1e0de3942.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "EigenTutorial",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "GridSearch",
+					"jsonFile" : "directory-GridSearch-Debug-8c2f9a85f6b8c818952f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "GridSearch",
+					"targetIndexes" : 
+					[
+						6,
+						7
+					]
+				},
+				{
+					"build" : "CsvExporter",
+					"jsonFile" : "directory-CsvExporter-Debug-a1f5431324606fa2f20d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "CsvExporter",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "ConvexityTests",
+					"jsonFile" : "directory-ConvexityTests-Debug-96b404694db90ed94e0e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "ConvexityTests",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				},
+				{
+					"build" : "MassSpringSystem",
+					"jsonFile" : "directory-MassSpringSystem-Debug-8b2425555f9486dc9d3c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "MassSpringSystem"
+				},
+				{
+					"build" : "MassSpringProblemEvaluation",
+					"jsonFile" : "directory-MassSpringProblemEvaluation-Debug-c77bb5d92ae03a639100.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "MassSpringProblemEvaluation",
+					"targetIndexes" : 
+					[
+						8,
+						9
+					]
+				},
+				{
+					"build" : "OptimalityChecker",
+					"jsonFile" : "directory-OptimalityChecker-Debug-91355627c08a84c8e644.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "OptimalityChecker",
+					"targetIndexes" : 
+					[
+						10,
+						11
+					]
+				},
+				{
+					"build" : "GradientDescent",
+					"jsonFile" : "directory-GradientDescent-Debug-bf19075ef83fae653336.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "GradientDescent",
+					"targetIndexes" : 
+					[
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					],
+					"name" : "AOPT_EXERCISES",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "googletest-distribution",
+					"parentIndex" : 0
+				},
+				{
+					"childIndexes" : 
+					[
+						3
+					],
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "gmock",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						12,
+						13
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "gtest",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						14,
+						15
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 7,
+					"id" : "ConvexityTests::@48f2018f5cea646775fc",
+					"jsonFile" : "target-ConvexityTests-Debug-a64d673f864844411ab9.json",
+					"name" : "ConvexityTests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "ConvexityTests-test::@48f2018f5cea646775fc",
+					"jsonFile" : "target-ConvexityTests-test-Debug-4265fea0260c45b908d9.json",
+					"name" : "ConvexityTests-test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "CsvExporter::@e2bf79343bb962c62286",
+					"jsonFile" : "target-CsvExporter-Debug-0d99370762baa29294e7.json",
+					"name" : "CsvExporter",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "EigenTutorial-test::@51176a8bf1317c755e08",
+					"jsonFile" : "target-EigenTutorial-test-Debug-d285c9fb2ed2235128fb.json",
+					"name" : "EigenTutorial-test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "GradientDescent::@55797a10960c9be15635",
+					"jsonFile" : "target-GradientDescent-Debug-3c24ecc898662037c0ff.json",
+					"name" : "GradientDescent",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "GradientDescent-test::@55797a10960c9be15635",
+					"jsonFile" : "target-GradientDescent-test-Debug-7b208ad77c277b3821f3.json",
+					"name" : "GradientDescent-test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "GridSearch::@aa254e6fcb9a48e6d6b7",
+					"jsonFile" : "target-GridSearch-Debug-72daee9b1c6abb7901f4.json",
+					"name" : "GridSearch",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "GridSearch-test::@aa254e6fcb9a48e6d6b7",
+					"jsonFile" : "target-GridSearch-test-Debug-1d3ca5061d87639ec170.json",
+					"name" : "GridSearch-test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "MassSpringProblemEvaluation::@3f9437fba1714dcfefd7",
+					"jsonFile" : "target-MassSpringProblemEvaluation-Debug-1374c10a542be52808d0.json",
+					"name" : "MassSpringProblemEvaluation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "MassSpringProblemEvaluation-test::@3f9437fba1714dcfefd7",
+					"jsonFile" : "target-MassSpringProblemEvaluation-test-Debug-b27f8bbdf8e921e6efc3.json",
+					"name" : "MassSpringProblemEvaluation-test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "OptimalityChecker::@fb647b8859c11656c117",
+					"jsonFile" : "target-OptimalityChecker-Debug-90424b80f9d553e8bed6.json",
+					"name" : "OptimalityChecker",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "OptimalityChecker-test::@fb647b8859c11656c117",
+					"jsonFile" : "target-OptimalityChecker-test-Debug-484f6dcdbbf94e666538.json",
+					"name" : "OptimalityChecker-test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gmock::@0f7bb11d64f3678238c7",
+					"jsonFile" : "target-gmock-Debug-a7b6978fd67609a53280.json",
+					"name" : "gmock",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gmock_main::@0f7bb11d64f3678238c7",
+					"jsonFile" : "target-gmock_main-Debug-3c5fa630287eecffcf93.json",
+					"name" : "gmock_main",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "gtest::@1ea2dfc0605fe3ab2a3f",
+					"jsonFile" : "target-gtest-Debug-30ac11adeed63475c292.json",
+					"name" : "gtest",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "gtest_main::@1ea2dfc0605fe3ab2a3f",
+					"jsonFile" : "target-gtest_main-Debug-fc4b10e7c37b7e5a5997.json",
+					"name" : "gtest_main",
+					"projectIndex" : 3
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/deepshukla/aopt-exercise5/aopt-exercise5/build",
+		"source" : "/home/deepshukla/aopt-exercise5/aopt-exercise5"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
